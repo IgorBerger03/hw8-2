@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Student {
     String name;
-    int age;
+    static int age;
 
     @Override
     public boolean equals(Object o) {
